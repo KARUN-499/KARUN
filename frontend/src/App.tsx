@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/ui/Navbar';
 import { Hero } from './components/sections/Hero';
 import { Skills } from './components/sections/Skills';

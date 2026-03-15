@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone, Calendar } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 export const Contact = () => {
   const [formData, setFormData] = useState({ firstName: '', lastName: '', email: '', message: '' });
   const [isSubmitting] = useState(false);
