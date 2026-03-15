@@ -43,7 +43,7 @@ export const Navbar = () => {
 
         {/* Socials & Admin Link */}
         <div className="hidden md:flex items-center gap-4">
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://github.com/KARUN-499" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <Github className="w-5 h-5" />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
@@ -80,7 +80,7 @@ export const Navbar = () => {
               </a>
             ))}
             <div className="flex gap-6 mt-4 pt-4 border-t border-white/10">
-              <a href="https://github.com"><Github className="w-6 h-6 text-gray-400" /></a>
+              <a href="https://github.com/KARUN-499" target="_blank" rel="noreferrer"><Github className="w-6 h-6 text-gray-400" /></a>
               <a href="https://linkedin.com"><Linkedin className="w-6 h-6 text-gray-400" /></a>
               <a href="https://twitter.com"><Twitter className="w-6 h-6 text-gray-400" /></a>
             </div>
