@@ -26,10 +26,10 @@ export const Navbar = () => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-md py-4 shadow-xl border-b border-white/10' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        
+
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold tracking-tighter text-white">
-          PORT<span className="text-blue-500">FOLIO.</span>
+          KA<span className="text-blue-500">RUN.</span>
         </Link>
 
         {/* Desktop Links */}
@@ -63,16 +63,16 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-xl border-b border-white/10 py-6 px-6"
         >
           <div className="flex flex-col gap-6">
             {navLinks.map((link) => (
-              <a 
-                key={link.name} 
-                href={link.href} 
+              <a
+                key={link.name}
+                href={link.href}
                 onClick={() => setIsOpen(false)}
                 className="text-lg font-medium text-gray-300 hover:text-white uppercase"
               >
