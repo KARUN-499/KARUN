@@ -15,7 +15,7 @@ const StableModel = () => {
 
   return (
     <Float speed={2} rotationIntensity={0.5} floatIntensity={1}>
-      <TorusKnot ref={modelRef} args={[1.2, 0.4, 128, 32]} position={[0, 0, 0]}>
+      <TorusKnot ref={modelRef} args={[0.9, 0.3, 128, 32]} position={[0, 0, 0]}>
         <MeshDistortMaterial
           color="#8b5cf6"
           attach="material"
